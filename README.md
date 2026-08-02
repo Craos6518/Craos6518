@@ -1,3 +1,11 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./light.svg">
+    <img alt="Andres Felipe Martinez Henao GitHub profile banner" src="./dark.svg" width="100%">
+  </picture>
+</p>
+
 # Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) I'm Andres Felipe Martinez Henao
 
 ### Desarrollador Full Stack | Entusiasta de IA | Estudiante de Ingeniería en Sistemas
