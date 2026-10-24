@@ -29,13 +29,14 @@
       <p>Portal para registrar y consultar calificaciones, gestionar usuarios y asignaturas, y generar reportes.</p>
       <p><strong>Stack:</strong> Next.js · React · TypeScript · Supabase · PostgreSQL</p>
       <a href="https://github.com/Craos6518/Proyecto-academico-version-andres">Ver código ↗</a> ·
-      <a href="https://proyecto-academico-version-andres-git-main-craos-projects.vercel.app">Abrir aplicación ↗</a>
+      <a href="https://proyecto-academico-version-andres.vercel.app/">Abrir aplicación ↗</a>
     </td>
     <td width="50%" valign="top">
       <h3>02 · Dungeon Crawler Patterns</h3>
       <p>Juego académico en Java 17 para demostrar patrones de diseño, con modos de consola y GUI, pruebas y documentación.</p>
       <p><strong>Stack:</strong> Java 17 · GUI · pruebas automatizadas</p>
-      <a href="https://github.com/Craos6518/dungeon-crawler-patterns">Ver código ↗</a>
+      <a href="https://github.com/Craos6518/dungeon-crawler-patterns">Ver código ↗</a> ·
+      <a href="https://dungeon-craeler-page.vercel.app/">Ver presentación ↗</a>
     </td>
   </tr>
   <tr>
@@ -49,7 +50,8 @@
       <h3>04 · To-Do List</h3>
       <p>Aplicación responsive para organizar tareas por categorías, prioridades y estados.</p>
       <p><strong>Stack:</strong> HTML · CSS · JavaScript</p>
-      <a href="https://github.com/Craos6518/Proyecto_To_Do_list_TMS-2024-2">Ver código ↗</a>
+      <a href="https://github.com/Craos6518/Proyecto_To_Do_list_TMS-2024-2">Ver código ↗</a> ·
+      <a href="https://craos6518.github.io/Proyecto_To_Do_list_TMS-2024-2/public/Status/status-tasks.html">Probar aplicación ↗</a>
     </td>
   </tr>
 </table>
