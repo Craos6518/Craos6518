@@ -2,91 +2,96 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./light.svg">
-    <img alt="Banner de Andrés Felipe Martínez Henao" src="./dark.svg" width="100%">
+    <img src="./dark.svg" alt="Portafolio de Andrés Felipe Martínez Henao" width="100%">
   </picture>
 </p>
 
-# ¡Hola! Soy Andrés Felipe Martínez Henao
+<p align="center">
+  <a href="mailto:f.martinez5@utp.edu.co"><img src="https://img.shields.io/badge/CONTACTAR-Email-0e7490?style=for-the-badge&logo=gmail&logoColor=white" alt="Contactar por correo"></a>
+  <a href="https://github.com/Craos6518?tab=repositories"><img src="https://img.shields.io/badge/EXPLORAR-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Explorar repositorios"></a>
+  <a href="https://www.linkedin.com/in/andr%C3%A9s-mart%C3%ADnez-0a35931b4"><img src="https://img.shields.io/badge/CONECTAR-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+</p>
 
-### Estudiante de Ingeniería en Sistemas y Tecnología en Desarrollo de Software | Desarrollo web Full-Stack
-
-Estudiante con proyectos prácticos de desarrollo web Full-Stack. Trabajo con Python, JavaScript y frameworks modernos; me caracterizan la adaptación, el aprendizaje rápido y la resolución de problemas. También cuento con experiencia en atención al cliente y soporte técnico. Me interesa escribir código limpio, eficiente y bien documentado.
-
-- 📍 Dosquebradas, Risaralda, Colombia
-- ✉️ [f.martinez5@utp.edu.co](mailto:f.martinez5@utp.edu.co)
-
----
-
-## 📑 Contenido
-
-- [Perfil](#-perfil)
-- [Habilidades técnicas](#-habilidades-técnicas)
-- [Proyectos](#-proyectos-destacados)
-- [Experiencia](#-experiencia-laboral)
-- [Educación](#-educación)
-- [Certificaciones](#-certificaciones)
-- [Contacto](#-contacto)
+<p align="center">
+  <b>Construyo aplicaciones web de extremo a extremo.</b><br>
+  Estudiante de Ingeniería en Sistemas y Tecnología en Desarrollo de Software en la Universidad Tecnológica de Pereira.<br>
+  Desde Dosquebradas, Colombia · Python · JavaScript · FastAPI · React · Node.js · SQL
+</p>
 
 ---
 
-## 👨‍💻 Perfil
+## Proyectos destacados
 
-Actualmente curso Ingeniería en Sistemas y Computación (6.º semestre) y Tecnología en Desarrollo de Software (5.º semestre, penúltimo semestre) en la Universidad Tecnológica de Pereira. Tengo formación técnica del SENA en Implementación y Mantenimiento de Equipos Electrónicos Industriales.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>01 · Sistema de gestión de notas</h3>
+      <p>Portal para registrar y consultar calificaciones, gestionar usuarios y asignaturas, y generar reportes.</p>
+      <p><strong>Stack:</strong> Next.js · React · TypeScript · Supabase · PostgreSQL</p>
+      <a href="https://github.com/Craos6518/Proyecto-academico-version-andres">Ver código ↗</a> ·
+      <a href="https://proyecto-academico-version-andres-git-main-craos-projects.vercel.app">Abrir aplicación ↗</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>02 · Dungeon Crawler Patterns</h3>
+      <p>Juego académico en Java 17 para demostrar patrones de diseño, con modos de consola y GUI, pruebas y documentación.</p>
+      <p><strong>Stack:</strong> Java 17 · GUI · pruebas automatizadas</p>
+      <a href="https://github.com/Craos6518/dungeon-crawler-patterns">Ver código ↗</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>03 · Smart Personal Finance Manager</h3>
+      <p>Gestor financiero full-stack con asistente de IA para consultar ingresos, gastos y análisis personales.</p>
+      <p><strong>Stack:</strong> Python · FastAPI · JavaScript · SQL</p>
+      <p><code>Repositorio privado</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>04 · To-Do List</h3>
+      <p>Aplicación responsive para organizar tareas por categorías, prioridades y estados.</p>
+      <p><strong>Stack:</strong> HTML · CSS · JavaScript</p>
+      <a href="https://github.com/Craos6518/Proyecto_To_Do_list_TMS-2024-2">Ver código ↗</a>
+    </td>
+  </tr>
+</table>
 
-Mis competencias incluyen desarrollo web, resolución de problemas, trabajo en equipo y aprendizaje rápido. He aplicado tecnologías web en proyectos académicos y personales.
+<details>
+  <summary><b>Más sobre mi trabajo</b></summary>
+  <br>
+  <b>Dashboard Analytics</b> — panel de visualización con gráficos interactivos, análisis de datos y consumo de APIs REST. Tecnologías: JavaScript, Node.js, Express, MongoDB, HTML y CSS.
+  <br><br>
+  <b>Experiencia</b> — atención al cliente y resolución de consultas técnicas en Claro Traslados (Atento, 2023) y Movistar (Abai Group, 2023).
+  <br><br>
+  <b>Formación</b> — Ingeniería en Sistemas y Computación (6.º semestre); Tecnología en Desarrollo de Software (5.º semestre, penúltimo); Técnico en Implementación y Mantenimiento de Equipos Electrónicos Industriales (SENA, 2017–2018).
+  <br><br>
+  <b>Certificaciones</b> — Fundamentos de Python (Cisco Networking Academy); Programación y Desarrollo de Software (Platzi Expert); Ciberseguridad y Privacidad para Empresas (Platzi).
+</details>
 
-## 🛠️ Habilidades técnicas
+## Herramientas
 
-- **Lenguajes:** Python, JavaScript, TypeScript, Java, C y C++
-- **Desarrollo web:** HTML5, CSS3, React, Node.js, Express.js y FastAPI
-- **Bases de datos:** PostgreSQL, SQL Server y MongoDB
-- **Herramientas:** Git, Linux, Docker (básico) y Vercel
-- **Metodologías:** Scrum, UML e historias de usuario
-- **Testing:** Jest y pruebas unitarias y de integración
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111827" alt="JavaScript">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB">
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/Docker-b%C3%A1sico-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker básico">
+</p>
 
-## 🚀 Proyectos destacados
+## Actividad en GitHub
 
-### Smart Personal Finance Manager
-Aplicación web para administrar finanzas personales, con asistente de IA integrado, backend y una interfaz para registrar y consultar ingresos y gastos.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.gif">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/github-snake-light.gif">
+  <img src="./assets/github-snake-dark.gif" alt="Animación de contribuciones de GitHub de Andrés Felipe Martínez Henao" width="100%">
+</picture>
 
-**Tecnologías:** Python, FastAPI, JavaScript, SQL, HTML y CSS.
+---
 
-### Dashboard Analytics
-Panel para visualizar datos con gráficos interactivos y análisis en tiempo real, conectado a APIs REST y datos dinámicos.
-
-**Tecnologías:** JavaScript, Node.js, Express.js, MongoDB, HTML y CSS.
-
-### Videojuego Rogue-like
-Juego web con lógica de backend en Java e interfaz en HTML, CSS y JavaScript. Integra Java y JavaScript para permitir interacción en tiempo real.
-
-**Tecnologías:** Java 17, HTML, CSS y JavaScript.
-
-## 💼 Experiencia laboral
-
-### Claro Traslados — Atento
-**Asesor de Centro de Atención Telefónica | Sep. 2023 – Dic. 2023**
-
-- Gestioné solicitudes de traslado de servicios y cambios de domicilio, procurando la continuidad del servicio y una atención eficiente.
-- Atendí a clientes con foco en la satisfacción y la calidad del servicio.
-
-### Movistar — Abai Group
-**Asesor de Centro de Atención Telefónica | Jul. 2023**
-
-- Resolví consultas y problemas técnicos de usuarios mediante soluciones efectivas.
-
-## 🎓 Educación
-
-- **Ingeniería en Sistemas y Computación** — Universidad Tecnológica de Pereira, 6.º semestre.
-- **Tecnología en Desarrollo de Software** — Universidad Tecnológica de Pereira, 5.º semestre (penúltimo semestre).
-- **Técnico en Implementación y Mantenimiento de Equipos Electrónicos Industriales** — SENA, 2017–2018.
-
-## 📜 Certificaciones
-
-- **Fundamentos de Python** — Cisco Networking Academy.
-- **Programación y Desarrollo de Software** — Platzi Expert.
-- **Ciberseguridad y Privacidad para Empresas** — Platzi.
-
-## 📬 Contacto
-
-- [GitHub: Craos6518](https://github.com/Craos6518)
-- [Correo: f.martinez5@utp.edu.co](mailto:f.martinez5@utp.edu.co)
+<p align="center">
+  ¿Tienes una idea o una oportunidad para colaborar?<br>
+  <a href="mailto:f.martinez5@utp.edu.co"><b>Hablemos por correo ↗</b></a>
+</p>

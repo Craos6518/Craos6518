@@ -1,0 +1,50 @@
+name: Actualizar animación de contribuciones
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 5 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - "README.md"
+      - "dark.svg"
+      - "light.svg"
+      - ".github/workflows/contribution-snake.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obtener el repositorio
+        uses: actions/checkout@v4
+
+      - name: Generar GIF para tema claro y oscuro
+        uses: Platane/snk@v3
+        with:
+          github_user_name: Craos6518
+          outputs: |
+            assets/github-snake-light.gif?color_snake=%230e7490&color_dots=%23e5e7eb,%23bae6fd,%237dd3fc,%2338bdf8,%230284c7&color_background=%23f8fafc
+            assets/github-snake-dark.gif?color_snake=%23f97316&color_dots=%23161b22,%230e4429,%23006d32,%2326a641,%2339d353&color_background=%230d1117
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Guardar los GIF generados
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-snake-light.gif assets/github-snake-dark.gif
+          if git diff --cached --quiet; then
+            echo "La animación ya está actualizada."
+            exit 0
+          fi
+          git commit -m "Actualizar animación de contribuciones"
+          git push
